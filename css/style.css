@@ -467,7 +467,9 @@ body.fixed {
 	transform: translateY(40px);
 	transition: 0.3s;
 }
-
+.page2_inner .text_box p{
+	color: #333;
+}
 
 
 .sc .page1_inner .text_box p,
@@ -488,7 +490,9 @@ body.fixed {
     color: #fff;
     line-height: 28px;
 }
-
+.page2_inner .text_box span{
+	color: #333;
+}
 /* @media only screen and (max-width: 940px) {
 	.page1_inner .text_box p,
 	.page2_inner .text_box p,
@@ -540,6 +544,9 @@ body.fixed {
 	color: #fff;
 	font-size: 1.125em;
 }
+.page2_inner .text_box ul li a{
+	color: #333;
+}
 .page1_inner .text_box ul li a::after,
 .page2_inner .text_box ul li a::after,
 .page3_inner .text_box ul li a::after,
@@ -554,7 +561,9 @@ body.fixed {
 	background: rgba(255, 255, 255, 0.6);
 	
 }
-
+.page2_inner .text_box ul li a::after{
+	background: #555;
+}
 
 .page1_inner .text_box ul li:first-child,
 .page2_inner .text_box ul li:first-child,
@@ -616,13 +625,13 @@ footer{
 	z-index: 10000;
 	position: absolute;
     left: 0;
-    bottom: -358px;
+    /* bottom: -358px; */
 	width: 100%;
 	padding: 0 2em;
 }
 footer .footer_wrap {
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 60px 0;
     max-width: 1240px;
 }
 footer .footer_wrap .footerM {
@@ -655,12 +664,13 @@ footer .footer_wrap .footerM .footer_store ul li a {
     opacity: 0.7;
 }
 
-footer .footer_wrap .footerM .footer_store .icon{
+/* footer .footer_wrap .footerM .footer_store .icon{
 	position: absolute;
-    right: 0;
-    top: 20%;
+    right: -10%;
+    top: -10%;
     width: 100px;
-}
+	margin-right: 2em;
+} */
 
 footer .footer_wrap .footer_company .footer_logo{
 	margin-bottom: 20px;
