@@ -627,12 +627,13 @@ footer{
     left: 0;
     /* bottom: -358px; */
 	width: 100%;
-	padding: 0 2em;
+	/* padding: 0 2em; */
 }
 footer .footer_wrap {
     margin: 0 auto;
     padding: 60px 0;
     max-width: 1240px;
+	padding: 4em 2em;
 }
 footer .footer_wrap .footerM {
 	position: relative;
