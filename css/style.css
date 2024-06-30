@@ -419,15 +419,19 @@ body.fixed {
 
 #page1{
 	background: url(../image/bg_content1.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 #page2{
 	background: url(../image/bg_content2.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 #page3{
 	background: url(../image/bg_content3.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 #page4{
 	background: url(../image/bg_content4.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 
 .page1_inner,
